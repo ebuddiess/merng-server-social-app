@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI :process.env.mongoURI,
-    jwtSceret :process.env.jwtSceret,
+    mongoURI :process.env.MONGO_URI,
+    jwtSceret :process.env.JWT_SECRET,
 }
